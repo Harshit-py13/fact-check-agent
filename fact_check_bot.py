@@ -5,6 +5,7 @@ from tavily import TavilyClient
 class FactCheckBot:
     def __init__(self):
         genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
         self.model = genai.GenerativeModel('gemini-3.1-flash-lite')
         
         self.tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
