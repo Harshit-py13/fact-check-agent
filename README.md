@@ -1,5 +1,6 @@
 TruthLayer: AI-Powered Fact-Check Agent
-TruthLayer is an intelligent fact-checking assistant designed to verify claims within PDF documents. By leveraging Google Gemini's reasoning capabilities and Tavily's real-time search API, the agent identifies key claims and cross-references them with live web data to determine their accuracy.
+___
+Fact check agent is an intelligent fact-checking assistant designed to verify claims within PDF documents. By leveraging Google Gemini's reasoning capabilities and Tavily's real-time search API, the agent identifies key claims and cross-references them with live web data to determine their accuracy.
 
 🚀 Features
 PDF Analysis: Extracts and processes text from uploaded documents.
